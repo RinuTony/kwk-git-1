@@ -1,8 +1,74 @@
 <!DOCTYPE html>
 <head>
-    <h1>Hello!</h1>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h3>This is my about me page!</h3>
+    <div class="header">
+        <h1 id="typewriter"></h1>
+    </div>
+
+    <div class="bio">
+        <p> I'm a final year Computer Science Student from God's Own Country, Kerala in India.
+            I enjoy learning new things and turning ideas into code.
+            I love thoughtful conversations, getting lost in a good book, and curating oddly specific playlists.
+            I'm just figuring things out as I go, and honestly, kind of impressed with how far I’ve come.
+        </p>
+    </div>
+
+    <div class="funfacts">
+        <h2>fun facts about me ✮ ⋆ ˚｡𖦹 ⋆｡°✩</h2>
+        <button onclick="showRandomFact()">Click here to get a random fun fact about me!</button>
+        <p id="fact-box"></p>
+        <!--<ul>
+            <li>I like to believe I have a high spice tolerance (but occasionally regret testing it)
+            </li>
+            <li> I finally got a helix piercing after wanting one forever and yes, it’s my new personality.
+            </li>
+            <li>I just got back from Malaysia! The city lights were magical, and standing 
+                in front of the Twin Towers felt straight out of a movie.
+            </li>
+        </ul>-->
+    </div>
+
+    <div class="codingjourney">
+        <h2>✮ ⋆ ˚｡𖦹 ⋆｡°✩ my coding journey</h2>
+        <p>
+            My coding journey kicked off in 2021 with the KWK Web Development camp, 
+            where I built my first website and realized tech could be both fun and powerful. 
+            That spark led me to take Computer Science classes in high school, and before I knew it, 
+            I was diving headfirst into a full-on CS degree. Since then, I’ve been exploring the world of code 
+            one project at a time learning new things, messing up a lot, and slowly figuring out what 
+            kind of tech I actually enjoy building.
+        </p>
+    </div>
+
+    <div class="gallery">
+        <h2> my gallery ✮ ⋆ ˚｡𖦹 ⋆｡°✩</h2>
+        <p> Here are some pics I took :)</p>
+        <img src="1.jpg">
+        <img src="2.jpg">
+        <img src="3.jpg">
+        <img src="4.jpg">
+        <img src="5.jpg">
+        <img src="9.jpg">
+    </div>
+
+    <div class="links">
+        <h2> ✮ ⋆ ˚｡𖦹 ⋆｡°✩ links</h2>
+        <p>
+            <ul>
+            <button><a href="https://open.spotify.com/user/ihf51pzr4m4ay0dmncwaz1gid?si=d92c1ea906cd4764"> 🎵 My Spotify</a></button>
+            <button><a href="https://hackertyper.net">👩🏾‍💻 Warning: May cause sudden ego boosts and loud typing</a></button>
+            <button><a href="https://github.com/RinuTony"> 👾 My Github </a></button>
+            </ul>
+        </p>
+    </div>
+
+    
+<script src="script.js"></script>
 </body>
 </html>

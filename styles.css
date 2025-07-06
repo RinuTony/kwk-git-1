@@ -1,0 +1,122 @@
+body{
+    background-color: #26000a;
+    color: white;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    font-family: 'Bitcount Grid Double', sans-serif;
+    font-size: xx-large;
+    font-weight: lighter;
+    margin: auto;
+}
+
+.bio p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+}
+
+.funfacts h2{
+    display: flex;
+    justify-content: left;
+    font-family: 'Bitcount Grid Double', sans-serif;
+    font-size: xx-large;
+}
+
+.funfacts ul{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    padding-right: 650px;
+    height: 200px;;
+    width: 600px;
+}
+
+.funfacts li{
+    margin-bottom: 10px;
+}
+
+.funfacts p{
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.funfacts button{
+    margin-left: 400px;
+    margin-bottom: 10px;
+}
+
+.codingjourney h2{
+    display: flex;
+    justify-content: right;
+    font-family: 'Bitcount Grid Double', sans-serif;
+    font-size: xx-large;
+}
+
+.codingjourney p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+}
+
+.gallery h2{
+    font-family: 'Bitcount Grid Double', sans-serif;
+    font-size: xx-large;
+}
+
+.gallery p{
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 500px;
+    padding-right: 100px;
+}
+
+.gallery img{
+    height: 300px;
+    width: 250px;
+    padding: 30px;
+    margin-left: 80px;
+
+    
+}
+.links h2{
+    font-family: 'Bitcount Grid Double', sans-serif;
+    font-size: xx-large;
+    display: flex;
+    justify-content: right;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Bitcount Grid Double', sans-serif;
+}
+
+button{
+    margin-right: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 70 px;
+    background-color: #4d0013;
+    font-size:medium;
+    color: white;
+    font-family: 'Bitcount Grid Double', sans-serif;
+    
+}
+
+button:hover {
+  background-color: #26000a; 
+  color: white
+}
